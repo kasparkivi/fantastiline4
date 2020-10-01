@@ -6,19 +6,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="ruum.css">
     <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'>
+    
 </head>
 <body>
     <header class="pais">TA-20</header>
-    <div class="container">
-    <h1 class="filt-text">Filtreeri</h1>
-    
-      <form>
-        <label for="kuupaev">Vali kuupäev:</label>
-            <input class="kuupaev" type="date" id="kuupaev" name="kuupaev"> <br>
-        <label for="vabadklassid">Näita ainult vabu</label>
-            <input type="checkbox" id="vabadklassid" value="Vabad klassid"> <br>
-            <input class="otsi" type="submit" value="Otsi ruume">
-      </form>
+    <div class="filter-container">
+        <div class="algne-container">
+            
+            <h1 class="filt-text">Filtreeri</h1>
+            
+            <div>
+                <select class="klass" id="codeSelect">
+                    
+                </select>
+            </div>
+              <form>
+                    <div class="kuupaev-text">
+                        <input class="kuupaev" type="date" id="kuupaev" name="kuupaev"> 
+                        <label for="kuupaev">Vali kuupäev</label> <br>   
+                    </div>
+                <input class="vaba-klass-check" type="checkbox" id="vabadklassid" value="Vabad klassid">
+                <label for="vabadklassid">Näita ainult vabu</label> <br>
+                     
+                    <input class="otsi" type="submit" value="Otsi ruumi">
+              <a href="">
+                  <img src="star.png" alt="">
+              </a>
+              </form>
+        </div>
     </div>
+    <script src="ruum.js"></script>    
 </body>
 </html>

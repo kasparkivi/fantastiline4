@@ -1,0 +1,32 @@
+body {
+    size: responsive;
+}
+header {
+    width: responsive;
+    height: 75px;
+    background-color: skyblue;
+    color: white;
+    font-style: bold;
+    position:center;
+    font: bolder;
+}
+.times {
+    size: responsive;
+    display: inline-block;
+}
+.clock {
+    height: 50px;
+    width: 70px;
+}
+.monday {
+    size: responsive;
+    display: inline-block;
+}
+.tuesday{
+    size: responsive;
+    display: inline-block;
+}
+.schedule {
+    height: 50px;
+    width: 140px;
+}

@@ -1,6 +1,9 @@
 body {
+    height: 100%;
+    width: 100%;
     margin: 0%;
-
+    font-family: Sen;
+    font-style: normal;
 }
 
 .filt-text { 
@@ -11,28 +14,19 @@ body {
     line-height: 29px;
     color: #2F80ED;
 }
-/*
-.ruumi-nupp {
-    position: absolute;
-    width: 301px;
-    height: 46px;
-    left: 31px;
-    top: 138px;
-    border-radius: 25px;
-    background-color: white;
-    border-color: #2F80ED;
-}
-*/
-.container {
+
+
+.algne-container {
     margin-top: 120px;
-    margin-left: 10%;
+    text-align: left;
+    padding-left: 50px;
+    width:100%;
+    height: 50%;
 }
 
 .pais {
     padding: 35px;
     background-color: #2F80ED;
-    font-family: Sen;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 43px;
@@ -40,8 +34,23 @@ body {
 }
 
 .otsi {
-    display: flex;
-    align-items: flex-start;
     text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #2F80ED;
+    color: #ffffff;
+    border-color: #2F80ED;
     
+}
+
+.filter-container {
+    background-color: #EEF7FB;
+    height: 100%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.kuupaev-text {
+    padding-bottom: 25px;
 }

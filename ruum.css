@@ -3,10 +3,7 @@ body {
 
 }
 
-.filt-text {
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 37px;
+.filt-text { 
     font-family: Sen;
     font-style: normal;
     font-weight: bold;
@@ -40,4 +37,11 @@ body {
     font-size: 36px;
     line-height: 43px;
     color: #ffffff;
+}
+
+.otsi {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    
 }

@@ -1,4 +1,39 @@
-.filt-text {
+body {
+    margin: 0%;
 
-    
+}
+
+.filt-text {
+    position: absolute;
+    width: 106px;
+    height: 33px;
+    left: 32px;
+    top: 94px;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F80ED;
+}
+/*
+.ruumi-nupp {
+    position: absolute;
+    width: 301px;
+    height: 46px;
+    left: 31px;
+    top: 138px;
+    border-radius: 25px;
+    background-color: white;
+    border-color: #2F80ED;
+}
+*/
+.container {
+    margin-top: 150px;
+    margin-left: 10%;
+}
+
+.pais {
+    padding: 35px;
+    background-color: #2F80ED;
 }

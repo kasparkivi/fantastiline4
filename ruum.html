@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="ruum.css">
     <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'>
+
 </head>
 <script>
     function myFunction() {
@@ -20,8 +21,8 @@
 </script>
 
 <body>
-    <header class="pais">
-        <div class="kursus">TA-20</div>
+    <header class="heading">
+        <div class="course">TA-20</div>
         <div class="burger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">=</a></div>
     </header>
 
@@ -33,22 +34,33 @@
     </div>
 
 
+    <div class="filter-container">
+        <div class="basic-container">
 
-    <div class="container">
+            <h1 class="filt-text">Filtreeri</h1>
 
+            <div>
+                <select class="class" id="codeSelect">
+
+                </select>
+            </div>
+            <form>
+                <div class="date-text">
+                    <img src="kalender.png">
+                    <input class="date" type="date" id="kuupaev" name="kuupaev">
+                    <br>
+                </div>
+                <input class="free-class-check" type="checkbox" id="vabadklassid" value="Vabad klassid">
+                <label class="checkbox-text" for="vabadklassid">Näita ainult vabu</label> <br>
+
+                <input class="search" type="submit" value="Otsi ruumi">
+
+            </form>
+        </div>
 
     </div>
-
-    <h1 class="filt-text">Filtreeri</h1>
-
-    <form>
-        <label for="kuupaev">Vali kuupäev:</label>
-        <input class="kuupaev" type="date" id="kuupaev" name="kuupaev"> <br>
-        <label for="vabadklassid">Näita ainult vabu</label>
-        <input type="checkbox" id="vabadklassid" value="Vabad klassid"> <br>
-        <input type="submit" value="Otsi ruumi">
-    </form>
-    </div>
+    <script src="ruum.js"></script>
 </body>
+
 
 </html>

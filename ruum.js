@@ -9,10 +9,3 @@ for(const item of data){
 }
 
 
-select.addEventListener('change', (event) => {
-  const result = document.querySelector('')
-
-
-
-
-})

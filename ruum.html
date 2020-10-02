@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,47 @@
     <link rel="stylesheet" href="ruum.css">
     <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'>
 </head>
+<script>
+    function myFunction() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
 <body>
-    <header class="pais">TA-20</header>
+    <header class="pais">
+        <div class="kursus">TA-20</div>
+        <div class="burger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">=</a></div>
+    </header>
+
+    <ul id="menu">
+        <li><a href="index.html">Avaleht</a></li>
+        <li><a href="kalender.html">Tunniplaan</a></li>
+        <li><a href="ruumid.html">Ruumid</a></li>
+    </ul>
+    </div>
+
+
+
     <div class="container">
+
+
+    </div>
+
     <h1 class="filt-text">Filtreeri</h1>
-    
-      <form>
+
+    <form>
         <label for="kuupaev">Vali kuupäev:</label>
-            <input class="kuupaev" type="date" id="kuupaev" name="kuupaev"> <br>
+        <input class="kuupaev" type="date" id="kuupaev" name="kuupaev"> <br>
         <label for="vabadklassid">Näita ainult vabu</label>
-            <input type="checkbox" id="vabadklassid" value="Vabad klassid"> <br>
-            <input type="submit" value="Otsi ruumi">
-      </form>
+        <input type="checkbox" id="vabadklassid" value="Vabad klassid"> <br>
+        <input type="submit" value="Otsi ruumi">
+    </form>
     </div>
 </body>
+
 </html>

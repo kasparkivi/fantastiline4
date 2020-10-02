@@ -1,3 +1,68 @@
+ul {
+    padding: 0;
+    list-style-type: none;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 29px;
+    color: #2F80ED;
+}
+
+.heading {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    padding: 20px 20px;
+    background-color: #2F80ED;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    box-sizing: border-box;
+
+}
+
+.course {
+    width: 50%;
+}
+
+.burger {
+    width: 50%;
+    right: 20px;
+    text-align: right;
+}
+
+.burger a {
+
+color: #ffffff;
+}
+
+#menu {
+    margin: 0;
+
+    width: 100%;
+    height:80%;
+    background: #2F80ED;
+    position: absolute;
+    padding: 50px;
+    top: 74px;
+    z-index: 10;
+    display: none;
+}
+
+#menu a {
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 2em;
+
+}
+
 .container {
     display: flex;
     align-items: right;

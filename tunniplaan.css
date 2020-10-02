@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding:0;
+}
+header {
+    position: sticky;
+    width: 100%;
+    height: 75px;
+    background-color: #2F80ED;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.timetable {
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    overflow: auto;
+}
+.times { 
+    width: 80px; 
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: lightblue;
+    z-index: 2;
+    /* overflow: auto;*/
+}
+.clock {
+    height: 50px;
+    width: 70px;
+    /*border:solid black 0.5px;*/
+}
+.days{
+    display: flex;
+    height: 150vh;
+    width: 1200px;
+}
+.day {    
+    /*width:300px;
+     border: 1px solid red;
+     float: left; 
+     position: relative; */
+}
+.dayofweek {
+    height: 50px;
+    top: 0;
+    position: sticky;
+    display: flex;
+    z-index: 1;
+}
+.schedule {
+    height: 50px;
+    width: 140px;
+    border: solid black 0.5px;}

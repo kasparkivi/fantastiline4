@@ -1,0 +1,164 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    font-family: Sen;
+    font-style: normal;
+}
+
+
+a {
+    text-decoration: none;
+    opacity:1;
+    font-family: 'Sen', sans serif;
+    font-weight: 400;
+    transition: 200ms;
+  }
+
+  a:hover {
+    opacity:0.5;
+  }
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 29px;
+    color: #2F80ED;
+}
+
+.heading {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    padding: 20px 20px;
+    background-color: #2F80ED;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    box-sizing: border-box;
+
+}
+
+.course {
+    width: 50%;
+}
+
+.burger {
+    width: 50%;
+    right: 20px;
+    text-align: right;
+}
+
+.burger a {
+
+color: #ffffff;
+}
+
+#menu {
+    margin: 0;
+
+    width: 100%;
+    height:80%;
+    background: #2F80ED;
+    position: absolute;
+    padding: 50px;
+    top: 74px;
+    z-index: 10;
+    display: none;
+}
+
+#menu a {
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 2em;
+
+}
+
+
+.filt-text {
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F80ED;
+}
+
+.basic-container {
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 50px;
+    width:100%;
+    height: 50%;
+}
+
+.search {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #2F80ED;
+    color: #ffffff;
+    border-color: #2F80ED;
+}
+
+.search:hover {
+    background-color:#2e517e;
+    transition-duration: 0.5s;
+}
+
+.filter-container {
+    background-color: #EEF7FB;
+    height: 100%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.date-text {
+    padding-bottom: 25px;
+}
+
+.class {
+    position: relative;
+    border-radius: 15px;
+    width: 50%;
+    padding: 10px;
+    border-color:#2F80ED;
+    border-width: 1.5px;
+    margin-bottom: 1rem;
+}
+
+.free-class-check {
+    position: relative;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    border-color: #2F80ED;
+    border:2px solid #2F80ED;
+    margin-left: 30px;
+}
+
+.date {
+    position: relative;
+    bottom: 45px;
+    background-color: #EEF7FB;
+    border-radius: 5px;
+    border-color: #EEF7FB;
+}
+
+.checkbox-text {
+    margin-left: 24px;
+    position: relative;
+    bottom:1.1rem;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ruum.css">
+    <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'>
+
+</head>
+<script>
+    function myFunction() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+<body>
+    <header class="heading">
+        <div class="course">TA-20</div>
+        <div class="burger"><a href="javascript:void(0);" class="icon" onclick="myFunction()">=</a></div>
+    </header>
+
+    <ul id="menu">
+        <li><a href="index.html">Avaleht</a></li>
+        <li><a href="tunniplaan.html">Tunniplaan</a></li>
+        <li><a href="ruum.html">Ruumid</a></li>
+    </ul>
+    </div>
+
+
+    <div class="filter-container">
+        <div class="basic-container">
+
+            <h1 class="filt-text">Filtreeri</h1>
+
+            <div>
+                <select class="class" id="codeSelect">
+
+                </select>
+            </div>
+            <form>
+                <div class="date-text">
+                    <img src="kalender.png">
+                    <input class="date" type="date" id="kuupaev" name="kuupaev">
+                    <br>
+                </div>
+                <input class="free-class-check" type="checkbox" id="vabadklassid" value="Vabad klassid">
+                <label class="checkbox-text" for="vabadklassid">Näita ainult vabu</label> <br>
+
+                <input class="search" type="submit" value="Otsi ruumi">
+
+            </form>
+        </div>
+
+    </div>
+    <script src="ruum.js"></script>
+</body>
+
+
+</html>

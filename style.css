@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu {
+    width: 250px;
+    height: 130px;
+    background-color: #2F80ED;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.black {
+    width: 100px; height: 30px;
+    background-color: black;
+    color:white;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    align-items: center;
+    /*margin-right: 1000px;*/
+    margin-top: -10px;
+    margin-left: 140px;
+    margin-bottom: -6px;
+}
+
+.white {
+    width: 250px;
+    height: 130px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.blue {
+    width: 100px; height: 30px;
+    background-color: #2F80ED;
+    color:white;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    align-items: center;
+    /*margin-right: 1000px;*/
+    margin-top: -10px;
+    margin-left: 140px;
+    margin-bottom: -6px;
+}
+
+
+
+.white2 {
+    width: 250px;
+    height: 130px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.clock {
+    width: 100px; height: 30px;
+    background-color: #2F80ED;
+    color:white;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    align-items: center;
+    /*margin-right: 1000px;*/
+    margin-top: -10px;
+    margin-left: 140px;
+    margin-bottom: -6px;
+}
+.TA-20 {
+    display: flex;
+    background-color: #2F80ED;
+    color: white;
+    width: 250px;
+    height: 80px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    display: flex;
+    color: #2F80ED;
+}
+
